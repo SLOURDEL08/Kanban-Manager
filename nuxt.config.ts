@@ -3,6 +3,8 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxtjs/tailwindcss',
     'shadcn-nuxt',
+    'nuxt-icon',
+    ['@pinia/nuxt', { disableVuex: true }],
     ['@nuxtjs/google-fonts', {
       families: {
         Lato: {
@@ -11,12 +13,16 @@ export default defineNuxtConfig({
         },
       },
     }],
+
   ],
 
   // Autres configurations...
   shadcn: {
     prefix: 'Ui',
     componentDir: './components/ui'
+  },
+  pinia: {
+    storesDirs: ['./store/**']
   },
 
   compatibilityDate: '2024-09-26'

@@ -15,12 +15,12 @@ module.exports = {
       },
     },
   fontSize: {
-        xs: '1.08rem', // 0.9rem * 1.2
-        sm: '1.28rem', // 1.07rem * 1.2
-        base: '1.42rem', // 1.18rem * 1.2
-        lg: '1.49rem', // 1.24rem * 1.2
+        xs: '0.9rem', // 0.9rem * 1.2
+        sm: '1.10rem', // 1.07rem * 1.2
+        base: '1.28rem', // 1.18rem * 1.2
+        lg: '1.46rem', // 1.24rem * 1.2
         xl: '1.66rem', // 1.38rem * 1.2
-        '1.5xl': '1.8rem', // 1.5rem * 1.2
+        '1.5xl': '1.7rem', // 1.5rem * 1.2
         '2xl': '2.18rem', // 1.82rem * 1.2
         '3xl': '2.66rem', // 2.22rem * 1.2
         '4xl': '3.19rem', // 2.66rem * 1.2
@@ -37,7 +37,7 @@ module.exports = {
         ring: 'var(--ring)',
         sidebar: 'var(--sidebar)',
         background: 'var(--background)',
-        foreground: 'var(--foreground)',
+  foreground: 'var(--foreground)',
         primary: {
           DEFAULT: 'var(--primary)', // Couleur principale
           foreground: 'var(--primary-foreground)', // Couleur de texte principal
