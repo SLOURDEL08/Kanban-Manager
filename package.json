@@ -14,10 +14,12 @@
     "@nuxtjs/google-fonts": "^3.2.0",
     "@pinia/nuxt": "^0.5.4",
     "@radix-icons/vue": "^1.0.0",
+    "@tanstack/vue-query": "^5.56.2",
     "@vueuse/core": "^11.1.0",
     "appwrite": "^15.0.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "dayjs": "^1.11.13",
     "nuxt": "^3.13.0",
     "nuxt-icon": "^1.0.0-beta.7",
     "pinia": "^2.2.2",
@@ -26,12 +28,14 @@
     "shadcn-vue": "^0.10.5",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
+    "uuid": "^10.0.0",
     "vue": "^3.5.8",
     "vue-router": "latest"
   },
   "devDependencies": {
     "@iconify-json/line-md": "^1.2.1",
     "@nuxt/icon": "^1.5.2",
-    "@nuxtjs/tailwindcss": "^6.12.1"
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@types/uuid": "^10.0.0"
   }
 }
