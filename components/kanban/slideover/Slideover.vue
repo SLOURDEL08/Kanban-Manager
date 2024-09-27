@@ -9,7 +9,7 @@
     <Transition name="slide">
       <USlideover v-if="store.isOpen" class="fixed inset-y-0 right-0 w-80 shadow-xl z-50 overflow-y-auto">
         <UCard
-          class="flex bg-[#0e172a]/95 flex-col h-full"
+          class="flex bg-[#0e172a]/95 overflow-hidden flex-col h-full"
           :ui="{
             base: 'h-full',
             body: { base: 'flex-1' },
