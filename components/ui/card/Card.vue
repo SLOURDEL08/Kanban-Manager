@@ -48,7 +48,7 @@ const CardDescription = defineComponent({
   },
   setup(props, { slots }) {
     return () => h('p', {
-      class: cn('text-xs text-muted-foreground p-3 pt-0', props.class)
+      class: cn('text-sm text-muted-foreground opacity-70', props.class)
     }, slots.default?.())
   }
 })
@@ -60,7 +60,7 @@ const CardContent = defineComponent({
   },
   setup(props, { slots }) {
     return () => h('div', {
-      class: cn('p-3 text-xs pt-0', props.class)
+      class: cn('p-3  py-1 text-sm', props.class)
     }, slots.default?.())
   }
 })
@@ -72,7 +72,7 @@ const CardFooter = defineComponent({
   },
   setup(props, { slots }) {
     return () => h('div', {
-      class: cn('flex items-center p-3 text-xs opacity-70 italic pt-0', props.class)
+      class: cn('flex items-center p-3 text-sm opacity-70 italic pt-3', props.class)
     }, slots.default?.())
   }
 })

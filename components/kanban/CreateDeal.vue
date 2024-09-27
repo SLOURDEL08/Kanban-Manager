@@ -92,15 +92,15 @@ const onSubmit = handleSubmit((values: IDealFormState) => {
     <div class="text-center mb-2">
         <button
         @click="isOpenForm = !isOpenForm"
-         class="transition-all opacity-10  hover:opacity-100 hover:text-foreground">
+         class="transition-all w-full flex justify-center items-center opacity-10  hover:opacity-100 hover:text-foreground">
         <Icon v-if="isOpenForm"
         name="radix-icons:arrow-up"
         class="fade-in-100 fade-out-0"
-        size="35" />
+        size="30" />
          <Icon v-else
         name="radix-icons:plus-circled"
         class="fade-in-100 fade-out-0"
-        size="35" />
+        size="30" />
         </button>
     </div>
     <form v-if="isOpenForm" @submit="onSubmit" class="form">

@@ -1,9 +1,9 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/image',
-    '@nuxtjs/tailwindcss',
     'shadcn-nuxt',
     'nuxt-icon',
+    '@nuxt/ui',
     ['@vee-validate/nuxt',
       { 
         autoImport: true,
@@ -18,13 +18,19 @@ export default defineNuxtConfig({
         },
       },
     }],
-
+    
   ],
 
   // Autres configurations...
   shadcn: {
     prefix: 'Ui',
     componentDir: './components/ui'
+  },
+   vue: {
+    compilerOptions: {
+      // Indique à Vue que 'USlideover' est un élément personnalisé
+      isCustomElement: (tag) => ['USlideover'].includes(tag),
+    },
   },
   pinia: {
     storesDirs: ['./store/**']
