@@ -4,6 +4,11 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'shadcn-nuxt',
     'nuxt-icon',
+    ['@vee-validate/nuxt',
+      { 
+        autoImport: true,
+      }
+    ],
     ['@pinia/nuxt', { disableVuex: true }],
     ['@nuxtjs/google-fonts', {
       families: {
