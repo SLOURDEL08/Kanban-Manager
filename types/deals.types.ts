@@ -5,7 +5,7 @@ export interface IBaseField {
 
 export interface ICustomer extends IBaseField {
     name: string
-    emai: string
+    email: string
     avatar_url: string
     from_source?: string
 }
